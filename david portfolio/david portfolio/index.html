@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: whitesmoke;
+    } #page {
+        width: 1024px;
+        height: 928px;
+    } header {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+    } #heading {
+        width: 100%;
+        height: 100px;
+        // background: lightgreen;
+    } h1 {
+        font: 48pt/1.4em Georgia;
+        text-align: center;
+    } main {
+        width: 100%;
+        height: auto;
+        // background: pink;
+        border: 1px dashed dimgray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } #page {
+        background: white;
+        margin: 0 auto;
+        border: 1px solid dimgray;
+        box-shadow: 2px 3px 6px dimgray;
+    } figure {
+        margin: 12px;
+    } .thumb {
+        width: 200px;
+        height: auto;
+    } figcaption {
+        font: 12pt/1.4em Georgia, serif;
+    } ul {
+        width: 40%;
+        height: 50px;
+        background: lightblue;
+    } li {
+        width: 33%;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: 16pt/2.3em Georgia;
+    } a {
+        color: black;
+    } a li:hover {
+        background: azure;
+    } footer {
+        width: 1024px;
+        height: 75px;
+        // background: lavender;
+        position: absolute;
+        bottom: 75px;
+    } .arrow {
+        width: 75px;
+        
+    }
+</style>
+</head>
+
+<body>
+    <div id="page">
+    <header>
+        <ul>
+            <li>Home</li>
+            <a href="portfolio.html">
+            <li>Portfolio</li>
+            </a>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div id="heading">
+        <h1>Welcome to My Portfolio Site</h1>
+    </div>
+    <main>
+    </main>
+    <footer>
+        <a href="#page">
+        <img class="arrow" src="arrow.png" />
+        </a>
+    </footer>
+    </div>
+</body>
+</html>

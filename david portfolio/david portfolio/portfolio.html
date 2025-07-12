@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: whitesmoke;
+    } #page {
+        width: 1024px;
+        height: 928px;
+    } header {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+    } #heading {
+        width: 100%;
+        height: 100px;
+        // background: lightgreen;
+    } h1 {
+        font: 48pt/1.4em Georgia;
+        text-align: center;
+    } main {
+        width: 100%;
+        height: 75%;
+        // background: pink;
+        // border: 1px dashed dimgray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } #page {
+        background: white;
+        margin: 0 auto;
+        border: 1px solid dimgray;
+        box-shadow: 2px 3px 6px dimgray;
+    } figure {
+        margin: 12px;
+    } .thumb {
+        width: 200px;
+        height: auto;
+        transition: transform 0.5s;
+   } .thumb:hover {
+        transform: scale(1.03);
+        transition: transform 0.5s;
+    } figcaption {
+        font: 12pt/1.4em Georgia, serif;
+    } ul {
+        width: 40%;
+        height: 50px;
+        background: lightblue;
+    } li {
+        width: 33%;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: 16pt/2.3em Georgia;
+    } a {
+        color: black;
+    } a li:hover {
+        background: azure;
+    } footer {
+        width: 1024px;
+        height: auto;
+        display: flex;
+        align-items: flex-end;
+        // background: lavender;
+    } .arrow {
+        width: 75px;
+        margin-left: 6px;
+    }
+</style>
+</head>
+
+<body>
+    <div id="page">
+    <header>
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <li>Portfolio</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div id="heading">
+        <h1>Portfolio</h1>
+    </div>
+    <main>
+        <figure>
+            <a href="20240925_133250.jpg">
+            <img class="thumb" src="thumb_20240925_133250.jpg" /></a>
+            <figcaption>Description of illustration.</figcaption>
+        </figure>
+        <figure>
+            <a href="20240916_130321.jpg">
+            <img class="thumb" src="thumb_20240916_130321.jpg" /></a>
+            <figcaption>Description of illustration.</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <a href="#page">
+        <img class="arrow" src="arrow.png" />
+        </a>
+    </footer>
+    </div>
+</body>
+</html>
